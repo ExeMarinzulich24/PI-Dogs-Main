@@ -1,0 +1,70 @@
+.landing {
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+  }
+  
+  .imagen {
+    height: 100vh;
+    border: solid 5px #121212;
+    box-shadow: 30px 40px 15px 0px black
+  }
+  .divText{
+    display: inline;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 600%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 150px;
+    border: solid 10px #121212;
+    box-shadow: 30px 40px 15px 0px black
+  }
+  
+  .welcomeLanding {
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    border: solid 10px #121212;
+    color: #fff;
+    text-align: center;
+    font-size: 300%;
+    padding: 20px;
+    margin-left: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 37%;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: 500px;
+    box-shadow: 30px 40px 15px 0px black
+  }
+  
+  .welcomeLanding span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .welcomeLanding span:after {
+    content: '\00ab';
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .welcomeLanding:hover span {
+    padding-left: 25px;
+  }
+  
+  .welcomeLanding:hover {
+    background-color: #fff;
+    color: #121212;
+  }
+  
+  .welcomeLanding:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

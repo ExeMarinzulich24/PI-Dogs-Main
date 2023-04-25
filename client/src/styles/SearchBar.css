@@ -1,0 +1,62 @@
+.input {
+    color: #ffffff;
+    background-color: #1a1a1a;
+  }
+  
+  .input:focus {
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: rgb(255, 255, 255);
+    border-color: white;
+  }
+  
+  .input:hover {
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: rgb(255, 255, 255);
+    border-color: white;
+  }
+  
+  
+  .button {
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 37%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00ab';
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-left: 25px;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #1a1a1a;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

@@ -1,0 +1,143 @@
+.divCreate {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.buttonHome {
+    border-radius: 4px;
+    background-color: #121212;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 37%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonHome span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttonHome span:after {
+    content: '\00ab';
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonHome :hover span {
+    padding-left: 25px;
+}
+
+.buttonHome:hover {
+    background-color: #fff;
+    color: #121212;
+}
+
+.buttonHome:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.title {
+    color: #fff;
+    justify-content: center;
+}
+
+label {
+    color: #fff;
+    font-size: medium;
+    margin: 10px;
+}
+
+input {
+    background-color: #121212;
+    border-radius: 4px;
+    margin: 50px;
+    color: #fff;
+}
+
+input:focus {
+    background-color: rgb(52, 52, 52);
+    color: whitesmoke;
+}
+
+.allSelecction {
+    display: inline-block;
+
+}
+
+.allSelecction li {
+    justify-content: center;
+    display: inline;
+}
+
+.selecction {
+    font-size: medium;
+    color: white;
+    margin: 10px;
+}
+
+.x {
+    background-color: #1a3550;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+select {
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    font-size: 1em;
+    color: #1a3550;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    margin: 10px;
+}
+
+select:focus {
+    background: #1a3550;
+    color: white;
+    border-color: rgb(71, 71, 71);
+}
+
+.boop {
+    background-color: #1a3550;
+    border: transparent;
+    border-radius: 8px;
+    font-size: medium;
+    height: 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.boop:hover {
+    background-color: white;
+    color: #1a3550;
+    transform: scale(1.1);
+}
+
+.error {
+    color: rgb(208, 3, 3);
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: 0;
+}
